@@ -1,17 +1,8 @@
-## Getting Started
+## Exercício 01  - Criar uma aplicação que resolva as seguintes situações :
+- Calcule as 4 operações básicas: soma, subtração, multiplicação, divisão. Sempre 2 valores devem ser passados.
+- A partir da hora do dia, informe a mensagem adequada: Bom dia, Boa tarde, Boa noite.
+- Calcule o valor final de um empréstimo, a partir do valor solicitado. Taxas e parcelas influenciam. Defina arbitrariamente as faixas que influenciam nos valores
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
