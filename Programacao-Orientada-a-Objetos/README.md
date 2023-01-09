@@ -6,6 +6,15 @@ Definir 1 método para calcular o valor total  para encher o tanque. Este deve r
 
 Criar objetos da classe "Carro". Use os métodos set/get, quando aplicáveis, para definir os valores dos atributos e exibir estes valores "get". Passe também uma mensagem para o cálculo do total pra encher o tanque.
 
+Criar a classe "Veiculo","Carro", "Moto" e "Caminhao". 
+
+Criar as classes "Funcionario", "Gerente", "Vendedor" e "Faxineiro".
+Realize upcasts e downcasts.
+
+Apenas para praticar, crie uma interface chamada "OperacaoMatematica". Crie também 4 métodos das operações básicas: soma, subtração, multiplicação e divisão.
+
+
+
 
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.

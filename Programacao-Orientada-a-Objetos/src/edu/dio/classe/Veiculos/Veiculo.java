@@ -1,12 +1,15 @@
-package edu.dio.classe;
- class Carro{
+package edu.dio.classe.Veiculos;
+
+public class Veiculo {
     private String cor ;
     private String modelo ;
     private int capacidadeTanque ;
 
-    public Carro(){
+    public Veiculo(){
+        
     }
-    public Carro(String cor, String modelo, int capacidadeTanque) {
+
+    public Veiculo(String cor, String modelo, int capacidadeTanque) {
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
@@ -35,4 +38,5 @@ package edu.dio.classe;
 
     }
 
+    
 }

@@ -1,8 +1,13 @@
-package edu.dio.classe;
+package edu.dio.classe.Veiculos;
+/**
+ @author  Miromar Junior
+ @version 1.0
+ @since   08/01/2023
+*/
 
 public class App {
     public static void main(String[] args) {
-        Carro carro1 = new Carro();
+        Veiculo carro1 = new Carro();
 
         carro1.setModelo("GOL");
         carro1.setCor("Preto");
@@ -13,7 +18,7 @@ public class App {
         System.out.println(carro1.getCapacidadeTanque());
         System.out.println(carro1.totalValorTanque(5.97));
 
-        Carro carro2 = new Carro("AZUL", "HB20", 50);
+        Veiculo carro2 = new Carro("AZUL", "HB20", 50);
         System.out.println(carro2.getModelo());
         System.out.println(carro2.getCor());
         System.out.println(carro2.getCapacidadeTanque());
