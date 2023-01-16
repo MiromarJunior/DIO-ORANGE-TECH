@@ -1,13 +1,11 @@
-package lista;
+package lista.ListArrayList;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
 public class MetodosList {
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
 
     // Dada uma lista com 7 notas de um aluno[7, 8.5, 9.3, 5, 7, 0 ,3.6] faça
 

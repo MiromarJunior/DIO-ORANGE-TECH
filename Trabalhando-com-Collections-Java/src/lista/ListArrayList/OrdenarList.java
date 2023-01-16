@@ -1,19 +1,24 @@
-package lista;
+package lista.ListArrayList;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 public class OrdenarList {
     public static void main(String[] args) {
-        List<Gato> meusGatos = new ArrayList(){{
-            add(new Gato("Jon",18,"preto"));
-            add(new Gato("Simba",6,"tigrado"));
-            add(new Gato("Jon",12,"amarelo"));
+        // List<Gato> meusGatos = new ArrayList(){{
+        //     add(new Gato("Jon",18,"preto"));
+        //     add(new Gato("Simba",6,"tigrado"));
+        //     add(new Gato("Jon",12,"amarelo"));
 
 
-        }};
+        // }};
+       
+        List<Gato> meusGatos = new ArrayList<>();
+        meusGatos.add(new Gato("Jon", 18,"preto"));
+        meusGatos.add(new Gato("Simba",6,"tigrado"));
+        meusGatos.add(new Gato("Jon",12,"amarelo"));
+        
         // System.out.println("Ordem de Inserção");
         // System.out.println(meusGatos);
 
@@ -78,9 +83,9 @@ class Gato implements Comparable<Gato>{
         return "Gato [nome=" + nome + ", idade=" + idade + ", cor=" + cor + "]";
     }
     @Override
-    public int compareTo(Gato gato) {
-        // TODO Auto-generated method stub
-        return  this.getNome().compareToIgnoreCase(gato.getNome());
+    public int compareTo(Gato gato2) {
+        
+        return  gato2.getNome().compareToIgnoreCase(getNome());
     }
     
 }
@@ -88,7 +93,7 @@ class ComparatorIdade implements Comparator<Gato>{
 
     @Override
     public int compare(Gato g1, Gato g2) {
-        // TODO Auto-generated method stub
+        
         return Integer.compare(g1.getIdade(), g2.getIdade());
     }
 

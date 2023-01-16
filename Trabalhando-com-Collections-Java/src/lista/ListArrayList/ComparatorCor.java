@@ -1,4 +1,4 @@
-package lista;
+package lista.ListArrayList;
 
 import java.util.Comparator;
 
@@ -6,7 +6,7 @@ public class ComparatorCor implements Comparator<Gato> {
 
     @Override
     public int compare(Gato g1, Gato g2) {
-        // TODO Auto-generated method stub
+       
         return g1.getCor().compareToIgnoreCase(g2.getCor());
     }
 
